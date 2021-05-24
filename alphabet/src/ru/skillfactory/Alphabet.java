@@ -1,3 +1,5 @@
+package ru.skillfactory;
+
 public class Alphabet {
     private int a;
     private int b;
@@ -142,5 +144,5 @@ public class Alphabet {
     }
 }
 
-package ru.skillfactory;
+
 
