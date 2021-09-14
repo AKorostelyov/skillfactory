@@ -14,10 +14,13 @@ public class Main{
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        ConsoleClock cc = new ConsoleClock();
-        cc.start();
-        Thread.sleep(3000);
-        cc.interrupt();
+//        ConsoleClock cc = new ConsoleClock();
+//        cc.start();
+//        Thread.sleep(3000);
+//        cc.interrupt();
+        MainOneThread mainOneThread = new MainOneThread();
+        mainOneThread.oneThread();
+        mainOneThread.fewThreads();
     }
 
     public static void someThreadPlay() {
